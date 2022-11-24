@@ -9,6 +9,11 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.1.3",
-    "nuxt": "3.0.0"
+    "@pinia/nuxt": "^0.4.5",
+    "nuxt": "3.0.0",
+    "nuxt-headlessui": "^1.0.4",
+    "nuxt-icons": "^3.0.0",
+    "vue": "^3.2.45",
+    "webpack": "^5.75.0"
   }
 }
