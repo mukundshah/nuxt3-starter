@@ -85,7 +85,7 @@ Checkout [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introducti
 Clone the repository:
 
 ```sh
-npx nuxi init <project-name> -t gh:mukundshah/nuxt3-starter
+pnpm dlx nuxi init <project-name> -t gh:mukundshah/nuxt3-starter
 ```
 
 Make sure to install the dependencies:
