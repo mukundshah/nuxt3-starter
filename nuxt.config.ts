@@ -22,7 +22,7 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: APP_META.description },
         { name: 'format-detection', content: 'telephone=no' },
       ],
-      link: [{ rel: "icon", type: 'image/x-icon', href: APP_META.favicon }],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: APP_META.favicon }],
     },
   },
 
@@ -69,6 +69,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
+    '@unlighthouse/nuxt',
     '@vueuse/nuxt',
     'nuxt-headlessui',
     'nuxt-icons',
@@ -92,4 +93,7 @@ export default defineNuxtConfig({
   // pinia: {
   //   autoImports: ["defineStore", "acceptHMRUpdate"],
   // },
+
+  // unlighthouse
+  unlighthouse: {},
 });
