@@ -188,6 +188,7 @@ web_modules/
 .nuxt
 .nitro
 .output
+.unlighthouse
 dist
 
 
