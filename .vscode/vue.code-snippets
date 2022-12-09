@@ -1,0 +1,7 @@
+{
+  "Generate Nuxt 3 Page": {
+    "prefix": "nuxt3-page",
+    "body": ["<script lang=\"ts\" setup>", "", "</script>", "", "<template>", "", "</template>"],
+    "description": "Generate Nuxt 3 Page"
+  }
+}

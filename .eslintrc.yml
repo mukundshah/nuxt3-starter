@@ -1,0 +1,26 @@
+root: true
+
+env:
+  browser: true
+  node: true
+
+extends:
+  - eslint:recommended
+  - '@nuxtjs/eslint-config-typescript'
+  # - plugin:nuxt/recommended
+  - plugin:vue/vue3-recommended
+  - prettier
+
+plugins: []
+
+rules:
+  vue/multi-word-component-names: off
+  vue/no-multiple-template-root: off
+
+ignorePatterns:
+  - .nuxt
+  - .output
+  - dist
+  - node_modules
+  - components.d.ts
+  - nuxt.d.ts

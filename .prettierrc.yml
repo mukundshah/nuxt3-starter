@@ -1,0 +1,8 @@
+# plugins:
+#   - prettier-plugin-tailwindcss
+
+semi: true
+singleQuote: true
+#
+# tailwindcss
+# tailwindConfig: ./.nuxt/tailwind.config.cjs

@@ -82,6 +82,7 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/.gitignore
+!.vscode/*.code-snippets
 
 
 # ===============================
@@ -186,6 +187,7 @@ web_modules/
 # Nuxt.js build / generate output
 .nuxt
 .nitro
+.output
 dist
 
 
