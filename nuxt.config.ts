@@ -76,7 +76,7 @@ export default defineNuxtConfig({
     '@unlighthouse/nuxt',
     '@vueuse/nuxt',
     'nuxt-headlessui',
-    'nuxt-icons',
+    // 'nuxt-icons',
     'modules/eslint',
   ],
 
