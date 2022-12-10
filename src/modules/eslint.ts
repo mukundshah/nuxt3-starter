@@ -39,7 +39,8 @@ export default defineNuxtModule<ModuleOptions>({
     if (!nuxt.options.dev) {
       return;
     }
-    addVitePlugin(vitePluginEslint(options.vite), { server: false });
+    // temporary fix for vite-plugin-eslint
+    addVitePlugin(vitePluginEslint(options.vite) as any, { server: false });
     addWebpackPlugin(new EslintWebpackPlugin(options.webpack), { server: false });
   },
 });
