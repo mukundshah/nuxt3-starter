@@ -1,4 +1,16 @@
 {
+  "Typescript script setup": {
+    "prefix": "ts-setup",
+    "body": ["<script lang=\"ts\" setup>", "", "</script>"],
+    "description": "Typescript script setup"
+  },
+
+  "Typescript script setup with props": {
+    "prefix": "ts-setup-props",
+    "body": ["<script lang=\"ts\" setup>", "props: {", "  $1", "}", "", "</script>"],
+    "description": "Typescript script setup with props"
+  },
+
   "Generate Nuxt 3 Page": {
     "prefix": "nuxt3-page",
     "body": ["<script lang=\"ts\" setup>", "", "</script>", "", "<template>", "", "</template>"],
