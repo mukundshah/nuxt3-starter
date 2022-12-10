@@ -44,7 +44,6 @@ export default defineNuxtConfig({
 
   // typescript
   typescript: {
-    strict: true,
     typeCheck: true,
     tsConfig: {
       compilerOptions: {
