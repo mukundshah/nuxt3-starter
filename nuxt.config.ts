@@ -80,23 +80,27 @@ export default defineNuxtConfig({
     'modules/eslint',
   ],
 
-  // googleFonts: {
-  //   families: {
-  //     Roboto: true,
-  //     Nunito: [500],
-  //     Raleway: [400, 500, 600, 700],
-  //     Montserrat: [400, 500, 600, 700],
-  //     "Open Sans": [400, 500, 600, 700],
-  //   },
-  // },
+  // module options
+  // google fonts
+  googleFonts: {
+    families: {
+      Roboto: true,
+      Nunito: [500],
+      Raleway: [400, 500, 600, 700],
+      Montserrat: [400, 500, 600, 700],
+      'Open Sans': [400, 500, 600, 700],
+    },
+  },
 
+  // headlessui
   headlessui: {
     prefix: 'H',
   },
 
-  // pinia: {
-  //   autoImports: ["defineStore", "acceptHMRUpdate"],
-  // },
+  // pinia
+  pinia: {
+    autoImports: ['defineStore'],
+  },
 
   // unlighthouse
   unlighthouse: {},
