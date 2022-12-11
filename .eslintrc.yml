@@ -7,7 +7,7 @@ env:
 extends:
   - eslint:recommended
   - '@nuxtjs/eslint-config-typescript'
-  # - plugin:nuxt/recommended
+  - plugin:nuxt/recommended
   - plugin:vue/vue3-recommended
   - prettier
 
