@@ -7,7 +7,14 @@
 
   "Typescript script setup with props": {
     "prefix": "ts-setup-props",
-    "body": ["<script lang=\"ts\" setup>", "props: {", "  $1", "}", "", "</script>"],
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "const props = defineProps<{",
+      "  $1",
+      "}>()",
+      "const { $2 } = toRefs(props)",
+      "</script>"
+    ],
     "description": "Typescript script setup with props"
   },
 
