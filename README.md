@@ -76,8 +76,6 @@ Checkout [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introducti
 ├── .editorconfig
 ├── README.md
 └── LICENSE.md
-</pre>
-</details>
 ```
 
 ## Setup
