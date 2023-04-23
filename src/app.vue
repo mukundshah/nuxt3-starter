@@ -1,5 +1,5 @@
 <template>
-  <Html lang="en" class="h-full bg-gray-100">
+  <Html lang="en" class="h-full">
     <Body class="h-full">
       <NuxtLayout>
         <NuxtPage />
