@@ -77,7 +77,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-headlessui',
     // 'nuxt-icons',
-    'modules/eslint',
   ],
 
   // module options
